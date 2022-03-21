@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* STYLING THE NAVBAR */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-indent: 20px;
+    background-color: #555;
+}
+
+span img {
+    height: 25px;
+    margin: 1rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+    gap: 0.1rem;
+    text-indent: 35px;
+    margin-right: 50px;
+}
+
+ul li {
+    font-size: 14px;
+    font-weight: light;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar:hover {
+    color: #40e0d0;
+}
+
+
+/* FIRST SECTION STYLING */
+
+.section-one {
+    margin-top: -3.1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+
+/* STYLING CONTAINER */
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+/* STYLING CARDS & IMAGES */
+
+div .card {
+    display: block;
+    background-color: #fff;
+    margin-bottom: 10rem;
+}
+
+div img {
+    height: 10rem;
+    padding: 0.3rem;
+    margin-bottom: 0;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin-left: 5rem;
+    margin-bottom: -3rem;
+    padding-top: 10rem;
+}
+
+h2 p{
+    font-size: 110px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+/* CARD TEXT */
+
+.text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 0.5;
+    margin: 3.2rem;
+    margin-bottom: 3.5rem;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+/* CARD HOVER */
+
+ div .card:hover {
+    background: #8cb6f5;
+    transform: scale(1.02);
+    transform: translateY(-10px);
+ }
+ 
+div .card:hover img.card-hover {
+  opacity:0.8;
+}
+
+/* SECTION TWO STYLING */
+
+.section-two {
+    margin-top: -3.1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px;
+    background-attachment: fixed;
+}
+
+/* CONTAINER ONE STYLING */
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    margin-top: -3.8rem;
+}
+
+.title {
+    margin: 9rem 0 4rem 0;
+    font-size: 44px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+.title-parag {
+    margin-bottom: 4rem;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+img.screen {
+    max-width: 100rem;
+    height: auto;
+}
+
+/* CONTAINER TWO STYLING */
+
+.container-two {
+    color: #fff;
+    line-height: 1.2;
+    margin-left: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.big-title {
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    margin-top: 9rem;
+}
+
+.small-text {
+    margin-bottom: 4rem;
+    opacity: 0.7;
+}
+
+.menu-button {
+    background-color: #fcbc46;
+    color: #fff;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    border-radius: 0.5rem;
+    border: 0;
+    font-size: 25px;
+    margin-bottom: 9rem;
+}
+
+.menu-button:hover {
+    background-color: #ffa500;
+}
+
+/* container three styling */
+
+.item-list-center1 {
+    padding: 9rem 70px 60px 4rem;
+    text-align: center;
+    color: #000;
+    column-gap: 3rem;
+}
+
+.item-list-center2 {
+    padding: 0rem 70px 7rem 4rem;
+    text-align: center;
+    color: #000;
+    column-gap: 3rem;
+}
+
+.title-text {
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 290;
+    line-height: 1.5;
+}
+
+/* SECTION THREE (TESTIMONIALS) */
+
+.container-quote {
+    padding-top: 5rem;
+    padding-bottom: 9rem;
+    margin-top: -4rem;
+    color: #fff;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.fa-star-t{
+    color: #ffd200;
+    font-size: 3rem;
+}
+
+.testimonials-text {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+.author {
+    font-weight: 1;
+}
+
+/* SECTION FOUR STYLING */
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10rem;
+    line-height: 1.5;
+    padding-bottom: 7rem;
+}
+
+.imojicon {
+    height: 5rem;
+    padding-top: 8rem;
+    padding-left: 2rem;
+    opacity: 0.4;
+}
+
+.timer {
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.imojicon-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/*SECTION FIVE STYLING*/
+
+.container-form {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.form-row {
+    margin-left: 7rem;
+    margin-right: 0;
+    width: 50%;
+}
+
+.form-title {
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    font-size: 44px;
+    font-family: 'Rpboto', sans-serif;
+    font-weight: lighter;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+
+#contact_form .form-group {
+    border-bottom: 0;
+    border-top: 1px solid;
+    width: 75%;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    color: inherit;
+}
+
+textarea {
+    border: 0;
+    border-bottom: 1px solid;
+    width: 100%;
+    color: #fff;
+    background: none;
+    padding: 2rem 0 3rem 0;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+    height: auto;
+}
+
+input {
+    width: 100%;
+    color: #fff;
+    background: none;
+    border: 0;
+    padding: 1.5rem 0  1.5rem 0 ;
+}
+
+/* Button Styling */
+
+.contact-submit {
+    background-color: #fcbc46;
+    color: #fff;
+    padding: 1rem 12.5rem 1rem 12.5rem;
+    border-radius: 0.3rem;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 9rem;
+}
+
+.contact-submit:hover {
+    background-color: #ffa500;
+}
+
+.form-parag {
+    margin-top: 13.5rem;
+    margin-left: -9rem;
+    margin-bottom: 3rem;
+    margin-right: 7rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+
+}
+
+.data-list {
+    display: block;
+    line-height: 4;
+    margin-left: -16rem;
+}
+
+#icon i {
+    margin-left: 0.5rem;
+    opacity: 0.4;
+    font-size: 130%;
+}
+
+
+/* STYLING FOOTER */
+
