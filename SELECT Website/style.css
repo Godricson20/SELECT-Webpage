@@ -240,7 +240,7 @@ img.screen {
     text-align: center;
 }
 
-.fa-star-t{
+.fa-star {
     color: #ffd200;
     font-size: 3rem;
 }
@@ -387,3 +387,6 @@ input {
 
 /* STYLING FOOTER */
 
+ .footer-container {
+    background-color: #252836;
+ }
